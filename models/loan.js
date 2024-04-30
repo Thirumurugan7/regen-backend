@@ -4,6 +4,7 @@ const LoanSchema = new mongoose.Schema({
     hash: String,
     requiredAmount: Number,
     address: String,
+    name:String,
     status: { type: String, default: 'Pending' }
 });
 
